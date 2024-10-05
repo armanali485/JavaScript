@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <p id="date" ></p>
+    <script>
+        var date = new Date(); 
+        document.getElementById("date").innerHTML=date.toDateString()+"<br>" +"Date :"+ date.getDate() +"<br>" +"fullYear :" + date.getFullYear()+"<br>" +"Day :" + date.getDay();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    height: 100vh;
+}
+p{
+    padding: 15% 35%;
+    background-color: bisque;
+}

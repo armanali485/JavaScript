@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var obj = {
+            fristName:"Arman",
+            lastName:"Ali",
+            age:"22",
+            country:"India",
+            arr:["Hello","World"],
+            fun :function(){
+                return 100;
+            },
+            fullName:function(){
+               return obj.fristName +" "+obj.lastName;
+            }
+        }
+        for(var i in obj){
+            document.write(obj[i] +"<br>");
+        }
+
+
+
+        // var a = ["Arman ",["ali,Heello"],"ooyeh"];
+        // document.write(a[1]);
+    </script>
+</body>
+</html>
