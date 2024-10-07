@@ -28,3 +28,9 @@ emailInput.addEventListener("blur",function(){
     emailInput.style.background="";
     
 })
+let selectTag = document.getElementById("country");
+selectTag.addEventListener("change",function(){
+    
+    document.getElementById("selectCountry").innerText=selectTag.value;
+    document.getElementById("selectCountry").style.display="inline-block"
+})
